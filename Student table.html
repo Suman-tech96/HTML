@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title> New Document </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+ </head>
+ <body>
+
+  <table border="2",style="border-collapse:col;apse">
+
+  <th>Name</th> <th>DOB</th>  <th>Gender</th>  <th>Mobile No</th>
+
+  <script>
+
+  var name=["Suman","Abhi","Jay","Suchi","Prava"];
+  var dob=[2004,2003,2002,2001,2002];
+  var gender=["m","m","m","m","f","f"];
+  var no=[856,256,698,857,256];
+
+  for(i=0;i<name.length;i++)
+
+  {
+	document.write("<tr>");
+
+	document.write("<td>");
+	document.write(name[i]);
+	document.write("</td>");
+
+	document.write("<td>");
+	document.write(dob[i]);
+	document.write("</td>");
+
+	document.write("<td>");
+	document.write(gender[i]);
+	document.write("</td>");
+
+	document.write("<td>");
+	document.write(no[i]);
+	document.write("</td>");
+
+	
+	document.write("</tr>");
+
+
+  }
+
+
+  </script>
+
+  </table>
+ </body>
+</html>
