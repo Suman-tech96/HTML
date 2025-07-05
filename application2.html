@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+</head>
+<body >
+    <div style=" background-color:rgb(123, 255, 0);border:1px solid rgb(247, 33, 33);">
+
+   
+    <center><h1 style="color: red;">Personal Details</h1><br>
+
+    <label for="name">Name : </label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="password">password : </label>
+    <input type="password" id="password" name="password"><br><br>
+
+    <label for="email">E_Mail id : </label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="gender">Gender : </label>
+    <input type="radio" id="male" name="gender" value="male" >
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <label for="contact">Contact : </label>
+    <input type="text" id="contact" name="contact">
+
+    <h1 style="color: red;">Educational Qualification</h1><br>
+    <label for="degree">Degree : </label>
+    <select name="degree" id="degree">
+         <option value="option">-- Select Group--</option>
+        <option value="BS.c">BS.c</option>
+        <option value="BCA" selected>BCA</option>
+        <option value="Diploma">Diploma</option>
+        <option value="B-Tech">B-Tech</option>
+    </select><br><br>
+
+    <label for="enginearing">Enginearing : </label>
+    <select name="enginearing" id="enginearing">
+         <option value="option">-- Select Group--</option>
+        <option value="civil">Civil Enginearing</option>
+        <option value="mechanical">Mecanical Enginearing</option>
+        <option value="electric">Electrical Enginearing</option>
+        <option value="software">Software Enginearing</option>
+    </select> <br><br>
+    
+    <label for="hobbies">Hobbies : </label>
+    <input type="radio" id="chess" name="hobbies" value="chess">
+    <label for="chess">Playing Chess</label>
+    <input type="radio" id="books" name="hobbies" value="books">
+    <label for="books">Reading Books</label> <br><br>
+
+    <h1 style="color: red;" >Address</h1><br>
+    <textarea name="address" rows="3" cols="35"></textarea>  <br><br>
+
+    <label for="attach">Attach Resume : </label>
+    <input type="file" placeholder="Choose File"> <br><br>
+
+    <input type="submit" value="submit">
+     <input type="reset" value="Reset">
+    
+    </center>
+     </div>
+</body>
+</html>
